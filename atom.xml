@@ -6,7 +6,7 @@
   <link href="https://lqo-l.github.io/atom.xml" rel="self"/>
   
   <link href="https://lqo-l.github.io/"/>
-  <updated>2024-03-16T02:01:56.819Z</updated>
+  <updated>2024-03-16T03:12:37.876Z</updated>
   <id>https://lqo-l.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《论分享不如知乎》</title>
+    <link href="https://lqo-l.github.io/2024/03/16/%E3%80%8A%E8%AE%BA%E5%88%86%E4%BA%AB%E4%B8%8D%E5%A6%82%E7%9F%A5%E4%B9%8E%E3%80%8B/"/>
+    <id>https://lqo-l.github.io/2024/03/16/%E3%80%8A%E8%AE%BA%E5%88%86%E4%BA%AB%E4%B8%8D%E5%A6%82%E7%9F%A5%E4%B9%8E%E3%80%8B/</id>
+    <published>2024-03-16T02:21:57.000Z</published>
+    <updated>2024-03-16T03:12:37.876Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/article/24.3.16/atc_del.png" alt=" "><br>记得上周说过，搭博客似乎只是为了有一些互联网的归属感，论技术上的分享其实不如知乎，但今早看到这件事后，心情其实挺沮丧的。<br><br>在过去的一周里，美国OpenAI放出了Figure 01人形机器人的演示。视频中，机器人已经可以与人类对话，从人类的语言中，理解其需求，并根据需求与现实交互。<br>“我饿了”，Figure01便会把桌子上的苹果拿给你吃。<br>Devin，美国Cognition打造的全球首位AI工程师。会写软件，架网站，但最可怕的点在于其拥有“成长”的能力——它能通过阅读文章自主学习先前不懂的知识，这意味着它可以以远超人类的学习能力，在这个时间流动的世界中，实时地成为与人类共同前进的“生物”。<br>成长、自主，这两个词对于一个机器人来说，太疯狂了。<br>短短一周，国外AI领域就达成了两个个人看来非同寻常的成就。再放眼过去，sora、chatgpt，sd，无数里程碑式的突破…<br>而中国呢？甚至还在删掉一个仅仅讲述开了clash之后网络环境出现问题的简单bug排错帖。沮丧又可悲。<br><br>曾经一直不明白国外究竟有哪里好，安全性差，出去又累。但至少在技术发展领域，在AI发展领域，这里完全看不到任何有希望追逐的前景。不可否认是硬件技术被垄断，但有些地方，再不做出改变，真的仿佛，自我封锁。<br>或许还是应该留一条出国的后路，练习英语听力和口语。<br><br>可喜的是，对于当代人来说，或许会见证一个新的时代。</p><hr><p>未来是人工智能的时代，irtoa如是说道。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/img/article/24.3.16/atc_del.png&quot; alt=&quot; &quot;&gt;&lt;br&gt;记得上周说过，搭博客似乎只是为了有一些互联网的归属感，论技术上的分享其实不如知乎，但今早看到这件事后，心情其实挺沮丧的。&lt;br&gt;&lt;br&gt;在过去的一周里，美国Ope</summary>
+      
+    
+    
+    
+    <category term="Causerie" scheme="https://lqo-l.github.io/categories/Causerie/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>使用clash-verge后无法正常pip的bug解决</title>
@@ -42,7 +64,7 @@
     <link href="https://lqo-l.github.io/2024/03/10/recoding-the-time-now/"/>
     <id>https://lqo-l.github.io/2024/03/10/recoding-the-time-now/</id>
     <published>2024-03-10T12:13:50.000Z</published>
-    <updated>2024-03-10T13:08:04.791Z</updated>
+    <updated>2024-03-16T02:31:18.999Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;irtoa的qq bot宕机了…<br>&emsp;&emsp;半年前配置的工程，近来想重新运行一下发现已经失修了，大概是openai接口那边出了点问题。<br><br>&emsp;&emsp;最近看VR-GS，从中发现了一些好玩的工具，也一并安装配置了一下，一个视频分割用的Cutie模型，一个inpainting用的laMA模型。嗯…以后大概也有机会用到吧。<br><br>&emsp;&emsp;搭博客的目的是什么呢，论隐私不若qq zone，论分享不如知乎，论笔记又不比onenote。但是果然还是想要建一个玩玩，irtoa house，有一个自己的小屋总归比较温暖。<br><br>&emsp;&emsp;以后想在博客里接入一个bot，但是目前还没搭好基本的网页功能，实际上irtoa还没有学会…慢慢努力吧，面包会有的，服务器也会有的！</p>]]></content>
     
@@ -53,6 +75,8 @@
       
     
     
+    
+    <category term="Causerie" scheme="https://lqo-l.github.io/categories/Causerie/"/>
     
     
   </entry>
