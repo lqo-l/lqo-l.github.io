@@ -10,8 +10,8 @@ https://lqo-l.github.io/link/index.html
 https://lqo-l.github.io/categories/index.html
 https://lqo-l.github.io/about/index.html
 https://lqo-l.github.io/
-https://lqo-l.github.io/tags/demo/
 https://lqo-l.github.io/tags/test/
+https://lqo-l.github.io/tags/demo/
 https://lqo-l.github.io/tags/aa/
 https://lqo-l.github.io/tags/bb/
 https://lqo-l.github.io/categories/test/

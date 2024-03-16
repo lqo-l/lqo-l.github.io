@@ -117,9 +117,9 @@
     <category term="test" scheme="https://lqo-l.github.io/categories/test/"/>
     
     
-    <category term="demo" scheme="https://lqo-l.github.io/tags/demo/"/>
-    
     <category term="test" scheme="https://lqo-l.github.io/tags/test/"/>
+    
+    <category term="demo" scheme="https://lqo-l.github.io/tags/demo/"/>
     
   </entry>
   
