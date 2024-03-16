@@ -6,7 +6,7 @@
   <link href="https://lqo-l.github.io/atom.xml" rel="self"/>
   
   <link href="https://lqo-l.github.io/"/>
-  <updated>2024-03-10T13:08:04.791Z</updated>
+  <updated>2024-03-16T02:01:56.819Z</updated>
   <id>https://lqo-l.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用clash-verge后无法正常pip的bug解决</title>
+    <link href="https://lqo-l.github.io/2024/03/16/%E4%BD%BF%E7%94%A8clash-verge%E5%90%8E%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8pip%E7%9A%84bug%E8%A7%A3%E5%86%B3/"/>
+    <id>https://lqo-l.github.io/2024/03/16/%E4%BD%BF%E7%94%A8clash-verge%E5%90%8E%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8pip%E7%9A%84bug%E8%A7%A3%E5%86%B3/</id>
+    <published>2024-03-16T01:20:25.000Z</published>
+    <updated>2024-03-16T02:01:56.819Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在cmd命令提示符中尝试pip安装包，出现了奇怪的报错，报错信息如下:</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">C:\Users\username&gt;pip install numpy</span><br><span class="line">WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">Could not fetch URL https://pypi.org/simple/numpy/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=&#x27;pypi.org&#x27;, port=443): Max retries exceeded with url: /simple/numpy/ (Caused by SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))) - skipping</span><br><span class="line">ERROR: Could not find a version that satisfies the requirement numpy (from versions: none)</span><br><span class="line">ERROR: No matching distribution found for numpy</span><br></pre></td></tr></table></figure><p><strong>原因和我使用的代理软件clash-verge有关，其解决方法如下：</strong></p><h2 id="方法一：关闭系统代理"><a href="#方法一：关闭系统代理" class="headerlink" title="方法一：关闭系统代理"></a>方法一：关闭系统代理</h2><p>简单粗暴，但是注意是关闭系统代理，只是修改为直连模式的话并不能解决问题<br><img src="/img/article/24.3.16/clash.png" alt="clash-verge界面"></p><h2 id="方法二：设置http-proxy和https-proxy环境变量"><a href="#方法二：设置http-proxy和https-proxy环境变量" class="headerlink" title="方法二：设置http_proxy和https_proxy环境变量"></a>方法二：设置http_proxy和https_proxy环境变量</h2><p>pip前,在终端（cmd）中运行下述两行命令来指定HTTP 和 HTTPS 协议的代理服务器：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">set http_proxy=http://127.0.0.1:7890</span><br><span class="line">set https_proxy=http://127.0.0.1:7890</span><br></pre></td></tr></table></figure><p>其中，7890是clash-verge默认的监听端口，修改过的话根据你代理的设置来即可。<br><img src="/img/article/24.3.16/clash_port.png" alt="端口7890"><br>之后就可以正常pip了~<br><strong>注：</strong> 这样配置环境变量只在当前终端有效，新开终端需要重新运行这两行命令。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近在cmd命令提示符中尝试pip安装包，出现了奇怪的报错，报错信息如下:&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;C:&#92;Users&#92;us</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Recoding the time now!</title>
