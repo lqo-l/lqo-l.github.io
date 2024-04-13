@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lqo-l.github.io/2024/04/13/hololens1%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</loc>
+    
+    <lastmod>2024-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lqo-l.github.io/2024/03/16/%E3%80%8A%E8%AE%BA%E5%88%86%E4%BA%AB%E4%B8%8D%E5%A6%82%E7%9F%A5%E4%B9%8E%E3%80%8B/</loc>
     
     <lastmod>2024-03-17</lastmod>
@@ -103,7 +112,7 @@
 
   <url>
     <loc>https://lqo-l.github.io/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,28 +120,42 @@
   
   <url>
     <loc>https://lqo-l.github.io/tags/test/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lqo-l.github.io/tags/demo/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lqo-l.github.io/tags/aa/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lqo-l.github.io/tags/bb/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lqo-l.github.io/tags/hololens1/</loc>
+    <lastmod>2024-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lqo-l.github.io/tags/AR/</loc>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -141,21 +164,21 @@
   
   <url>
     <loc>https://lqo-l.github.io/categories/test/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lqo-l.github.io/categories/aaa/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lqo-l.github.io/categories/Causerie/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

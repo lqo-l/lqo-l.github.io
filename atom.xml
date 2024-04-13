@@ -6,7 +6,7 @@
   <link href="https://lqo-l.github.io/atom.xml" rel="self"/>
   
   <link href="https://lqo-l.github.io/"/>
-  <updated>2024-03-17T03:33:08.664Z</updated>
+  <updated>2024-04-13T03:55:26.111Z</updated>
   <id>https://lqo-l.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hololens1开发记录</title>
+    <link href="https://lqo-l.github.io/2024/04/13/hololens1%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/"/>
+    <id>https://lqo-l.github.io/2024/04/13/hololens1%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</id>
+    <published>2024-04-13T00:43:06.000Z</published>
+    <updated>2024-04-13T03:55:26.111Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;最近irtoa在利用hololens1眼镜开发盲人导航软件，第一次开发AR，和同学一起踩了不少坑，在此记录一下。</p><h1 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h1><blockquote><p><strong>结论：</strong> 推荐使用Unity2017.4.40，对应Visual Studio2017版本</p></blockquote><p>&emsp;&emsp;hololens1开发使用Unity和Visual Studio。 hololens1是微软2016年推出的老古董了，而且2019年就推出了arm64的hololens2（hololens1是x86架构），所以Unity比较新的版本基本上只适合hololens2的开发。<br>&emsp;&emsp;我们在Unity2021、2022、2023的版本都尝试过，但是远程调试的配置部分已经和官方文档所说的配置方法截然不同，我尝试了很久最终还是没有成功。另外，微软官方提供的案例教学使用的版本是Unity2017.2，我们测试了2017.4.40的版本，目前还没有出现什么问题。<br>&emsp;&emsp;Visual Studio要与Unity配合使用，安装2017版本即可。我是手动安装的，但在官网没有找到该版本的下载渠道，所以在网上随便找了个企业破解版的装了用。<br>&emsp;&emsp;Visual Studio需要安装以下组件：</p><ul><li>.net桌面开发；</li><li>通用windows平台开发（勾选”USB设备连接性”）</li><li>使用C++的桌面开发；</li><li>使用unity的游戏开发。</li></ul><p>&emsp;&emsp;如果在Unity hub中和unity一起安装的VS，安装后可以检查一下是否缺少组件。<br>&emsp;&emsp;另外，关于virtual reality sdk，如果你看到过有关openXR的教程，那可以直接丢一边了，Hololens1使用Windows Mixed Reality API，不支持openXR（hololens2可以）。这个sdk后面配置unity项目的时候会看到。</p><h1 id="相关学习文档"><a href="#相关学习文档" class="headerlink" title="相关学习文档"></a>相关学习文档</h1><blockquote><p>我们Hololens也有自己的games101：<a href="https://learn.microsoft.com/zh-cn/windows/mixed-reality/develop/unity/tutorials/holograms-101">Hololens101</a> </p></blockquote><p>&emsp;&emsp;Hololens1从配置、调试、部署，到所有官方接口的学习，看过一遍100~240（其他的部分没太多干货），基本上就足够开发了。<br>&emsp;&emsp;事实上是，大概也找不到其他更多的学习资料了（可能是我不够高性能）。不过对于这套文档，我愿称之Hololens1唯一指定学习教材，真保姆级教学，凛凛花来了都能看懂的那种(。<br>&emsp;&emsp;需要注意，它提供的视频教程是落后于文档教程的，有些旧代码和操作没有更新到最新（指7年前），建议首先根据文字教程操作，看不懂再去视频找找相关操作，大体上还是差不多的。<br>&emsp;&emsp;推荐大家把每一节github项目下下来，里面有Starter和Completed两份Unity项目，前者是我们可以拿来练习的，后者是已经做好的，可以拿来对比参考。</p><h1 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h1><ul><li>配置项目时要先在<code>file-build setting</code>中切换UWP（通用windows平台），否则远程调试可能出问题；</li><li>应用部署到hololens时需要保持其常亮，否则网络连接不畅会部署失败；</li><li>unity中脚本打开的VS版本选择方式：edit-preferences-external tools；</li><li>远程调试麦克风功能似乎不能正常使用，部署之后可以，调试的时候可以自己设置快捷键测试；</li><li>211课程手部引导功能远程调试有问题，部署之后是正常的；</li><li>212课程中SRGS测试没有成功，不确定是什么原因。</li></ul><h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>&emsp;&emsp;内容差不多就是这些，第一次写这种记录，如果能帮到谁那就太好了。感觉写的不是很清晰，irtoa需要学习一下别人怎么写的，所以逛个知乎先~</p><p>&#x2F;&#x2F; hololens1真的远古，想必也不会有人拿它来做开发吧&#x3D; &#x3D;</p><center><img src="https://lqo-l.github.io/img/article/24.4.13/marisa.png" alt="一张动图"  width="1079" /></center>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;最近irtoa在利用hololens1眼镜开发盲人导航软件，第一次开发AR，和同学一起踩了不少坑，在此记录一下。&lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="hololens1" scheme="https://lqo-l.github.io/tags/hololens1/"/>
+    
+    <category term="AR" scheme="https://lqo-l.github.io/tags/AR/"/>
+    
+  </entry>
   
   <entry>
     <title>《论分享不如知乎》</title>
