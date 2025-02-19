@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://lqo-l.github.io/2024/04/13/hololens1%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://lqo-l.github.io/2024/03/10/recoding-the-time-now/</loc>
     
     <lastmod>2025-02-19</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://lqo-l.github.io/2024/03/10/recoding-the-time-now/</loc>
+    <loc>https://lqo-l.github.io/2024/04/13/hololens1%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2025-02-19</lastmod>
     
@@ -101,13 +101,6 @@
 
   
   <url>
-    <loc>https://lqo-l.github.io/tags/demo/</loc>
-    <lastmod>2025-02-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lqo-l.github.io/tags/hololens1/</loc>
     <lastmod>2025-02-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -116,6 +109,13 @@
   
   <url>
     <loc>https://lqo-l.github.io/tags/AR/</loc>
+    <lastmod>2025-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lqo-l.github.io/tags/demo/</loc>
     <lastmod>2025-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
