@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Irtoa House</title>
+  
+  
+  <link href="https://lqo-l.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://lqo-l.github.io/"/>
+  <updated>2025-02-19T03:27:47.002Z</updated>
+  <id>https://lqo-l.github.io/</id>
+  
+  <author>
+    <name>Irtoa</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Rebirth</title>
+    <link href="https://lqo-l.github.io/2025/02/17/Rebirth/"/>
+    <id>https://lqo-l.github.io/2025/02/17/Rebirth/</id>
+    <published>2025-02-17T04:05:00.000Z</published>
+    <updated>2025-02-19T03:27:47.002Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>时隔一年，irtoa重新找回了账号密码…</p></blockquote><p>本想写一篇年记一样的东西，想了想还是有点花时间了，本身也不太喜欢把内心想法过多展示。其实说说更适合这类记录。<br>不过作为新年新学期开学的第一天，也作为找回blog的纪念，无论如何还是留下一篇简记以作回忆。<br><img src="/img/article/25.2.17/Loading.jpg" alt="loading" title="Rebirth Loading"><br>过去的一年做了不少事情，心态也有了很大的变化。<br>上一篇24年4月13日记下的那篇hololens开发记录时，还在做盲人导航的开发工作，但做的过程太艰难了，最后在那个SDK接口的地方尝试了一周，然后成功了。虽然成功但并不欣喜，之后一起做事的同门也不想在这个设备上再继续下去，所以算是烂尾掉了。当时他好像是完成了unity在世界中估计位置这个工作，但也没有跟我说是怎么做的。反正心照不宣地远离了这个东西。<br>之后5月，接触了ba二游，是我继pcr之后第二个玩上以月为单位时长的二游。ba是一个很大的ip，接触ba大概是我去年到现在发生的变化的主要转折点了。<br>6月中，借着ba进而接触了kbg，一款ba二创的tps射击游戏。让我在另一个时空找回了小时候打cf时的兴奋和刺激。那段时间沉迷这个游戏的程度达到了极点了，到了周末不学习的时候一天可以从早打到晚十几个小时。那时科研上完全没有思路和作为。暑期学校的时候也在玩，回来之后也在玩。<br>直到9月place宣布停止开发，迎来了一个新的阶段——pa时代。</p><p>pa，project archive，是国人决定接续kbg的作品。9月下旬前后我看到的消息，很想参与，犹豫了很久，在国庆前夕填下了问卷的申请意愿。<br>一方面，当时组会取消，压力小了很多。另一方面，正值国庆长假，想着假期可以抽空参与，帮忙为这个很喜欢的游戏做些什么。<br>9月27，没记错的话是这个时间。rz拉我进组，开始了长达4到5个月的pa开发。<br>是的，本打算做7天的工作，超超级加倍到了4个月。<br>这四个月，科研算是基本停滞了，一部分是心思全在这边了，另一部分也是自己一个人的科研实在难以进行下去，太多拼尽全力却中殂被迫烂尾的尝试了。<br>pa开发初期，精力和兴趣都是拉满的，每天甚至可以早八work到晚三。我自己都觉得不可思议，但确实不觉得有多疲累。但变化是长期的，逐渐的作息变得不可控起来，整整一个学期，每晚我都没法再在一点甚至两点前睡着，即使很早就上床，脑子里也全是想着后续的pa开发工作。<br>早上的作息也是，一开始靠新奇感可以做到晚睡的同时早起，但很快就变成了不得不睡到十点十一点之后才勉强爬的起床。<br>这段开发经历很奇妙，让我的心态从一天不去学习就感到难安感到会被导师责备，变成在科研上越来越摆烂，无为也不想为的一种焦虑又无从下手的心境。<br>pa开发本身是快乐的，但带着科研这件事一起，本身快乐的事似乎又变的痛苦。应该责备的是pa呢，还是科研呢。<br>无论如何，这件事我确确实实地从十月一直做到了现在。即使中间有尝试过分出大部分精力忙于科研，但结果是坐在实验室的电脑前也静不下心，频繁翻看聊天记录，不想漏掉任何一条开发群里的消息。</p><p>说起科研，最近越来越觉得科研就是一道巨大的圆锥曲线题。每一次尝试都要花费巨量的时间去验证结果，但又往往忙碌半天算不出其中的哪怕一步。<br>人生的每个阶段都是在为未来做铺垫，我开始相信这个观点。<br>在高中，做不出的圆锥曲线，我大可为了性价比考虑而放弃掉，或是仅仅完成一个简单的括号一。但在此刻科研这道大题上，似乎无论如何我也没办法逃掉了。做不出就毕不了业，仅仅完成一个基础的小步骤也是无济于事，关键的创新才是科研需要的。<br>我也逐渐认清自己不是适合去做创新性工作的人，但事已至此，我还是要在这里去做完这件事，哪怕编，也得解出一个合理的结果。<br>仔细想来，也不是每道圆锥曲线都是以失败告终的，也偶尔有碰巧在无数繁琐方程中求出答案的机会存在。<br>希望在今年我也会偶遇这样的机会。</p><p>说回pa，在一周前的周六熬夜赶完柚子和日富美的大更新之后，还是决定隐退了。<br>开学了，我也再没有精力去耗下去。该回到研究生本身的工作上了。<br>不解决掉科研的痛苦，快乐只会也变成痛苦，我不想让开发pa变成这样一件痛苦的事。</p><p>寄存了几个月的gs想法，始终没办法靠自己的力量做下去。除了代码层面上的无从下手，对想法的完整环节，现在也存有一些疑虑。<br>在我决定今天来做gs相关工作的时刻开始就心存巨大的压力。我很怕又变成一个做了很长时间却最终烂尾掉的实验，变成一个算了半个多小时却没算出任何结果的圆锥曲线。<br>从我读研开始，这种事情遇到的太多了。卡在一个无法解决的地方，无从下手。理论看起来都是美妙可行的，但实践下去，全是坑洼。<br>box3D的LLM生成，尝试了许多prompt，效果始终不佳。<br>RTG-SLAM的微调测试，配了几天环境，卡在wsl底层一个gl的链接库上过不去，找不到任何解决方案，只能放掉。<br>师兄的AIM-SLAM论文修改，花了几天时间去写一个符号表，去调整论文结构，发出来却无人理会，没办法，还是放弃掉了。<br>hololens开发，倒是进行到了下一个阶段，只是对于这个老旧设备的开发支持性上，确实看不到一点可行的希望，算是主动选择远离了。<br>包括上学期有在尝试pgsr这篇工作，仅仅在复现的环节就遇到了很多问题，包括colmap处理的图片分辨率问题，包括eval的gt问题，包括不同方法的eval指标对比。很多解决不掉的问题，很难搞。<br>或许我应该找一个技术社区交流问问，实验室这边看起来提供不了任何帮助，毕竟完全没有人在做这些。</p><p>我确信这些是比较基础的技术问题，但也因此，解决不掉这些基础问题、因为这些基础问题而不得不放弃掉后续的想法，尤为挫败。</p><p>逃不掉的，还是继续做下去吧，至少我的这个想法目前还没有遇到做不下去的情况。不过这个想法现在还有点草率，有些环节是空缺的没有解决方案的，我得再斟酌下细节。</p><p>现在其实是一个比较好的科研状态了。开发推掉了，音游不打了，二游日常也不上线了。前些日子大病一场之后，晚上也能11点12点就早早睡着了。</p><p>说起二游，从假期开始我就有退坑的想法，但一直下定不了决心。直到在内测群里看到一个群友的话。<br>“每天上线清清体力十分钟就够了”<br>“做不到，就算只有一分钟也不行。我不想我每天的24小时变成23小时59分”<br>…<br>是有道理的。当对这个游戏的热爱已经殆尽的时候，仅仅占用每天的一分钟都变得难以接受。<br>其实只是给自己找个理由放弃掉四五年来不知为何的坚持吧。</p><p>上学期做hololens的时候，给自己规划了一个名为TA的未来方向，于是开始学习blender，unity，opengl。然而从放掉hololens，准备入手师兄的slam方向开始，一切都变得很糟糕。<br>当时我的想法是，slam方向有师兄的工作可以继承，工作机会和前景看他的发展也很不错，虽然这个方向很无趣，但为了生活也可以做一做吧，于是决然抛开了学了一两个月的TA发展计划。<br>之后的情况是，那篇准备发表的论文，修改后无人问津。师兄那边也没了动静，本还想着能讨教些知识的。但他本人也不在意的话，想要延续做下去就不太可能了。<br>slam真的是一个缺乏美感的领域。靠着各种工业界的经验去发展的技术，求解的方式暴力而无趣。算是浅尝辄止了，最后还是重新回来做高斯了。</p><p>只是未来的工作方向，何去何从。<br>继续做高斯，做创新性的任务？得看我今年的科研情况了，目前我的判断是我并不适合科研。<br>一个比较理想的想法就是去做游戏开发了。尽管工作中的游戏开发需要的知识可远不止我现在的这些，或许我可以尝试将pa移植到unity中？作为一个简历经历。<br>做哪方面呢，前端？后端？gameplay？工具？引擎？特效？<br>游戏行业，就我前段日子的游戏开发的体验，已经可以想象工作后的加班常态了。而且工作中参与的开发大概未必有那么幸运会是我喜欢的游戏了。</p><p>Rebirth.<br>希望今年是可以摆脱过去苦痛，有所进展的重生。<br>希望明年的这个时候，我可以为了毕业论文发愁，而不是继续为了小论文发愁。当然，如果可以的话，毕业论文最好也有些思路hhh。<br>按理说，4月准备实习，6到8月暑期实习。8月准备秋招。<br>但我现在的情况感觉只能放掉实习，找找上半年5月6月前后的论文投稿，在6月前把小论文做出来。然后准备游戏方面的工作知识和简历项目。上半年把小论文结束掉，暑期准备工作，差不多10月前把工作找好。找到工作之后，小论文如果有意外也可以再修修，重投一个新的。</p><p>会有这么顺利吗。<br>所有的停滞点都卡在小论文上。<br>无论如何，先把小论文解决掉好了。<br><img src="/img/article/25.2.17/Running.gif" alt="Running" title="Running"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;时隔一年，irtoa重新找回了账号密码…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本想写一篇年记一样的东西，想了想还是有点花时间了，本身也不太喜欢把内心想法过多展示。其实说说更适合这类记录。&lt;br&gt;不过作为新年新学期开学的第一天，也作为找回blo</summary>
+      
+    
+    
+    
+    <category term="Causerie" scheme="https://lqo-l.github.io/categories/Causerie/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hololens1开发记录</title>
+    <link href="https://lqo-l.github.io/2024/04/13/hololens1%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/"/>
+    <id>https://lqo-l.github.io/2024/04/13/hololens1%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</id>
+    <published>2024-04-13T00:43:06.000Z</published>
+    <updated>2025-02-19T03:27:47.003Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;最近irtoa在利用hololens1眼镜开发盲人导航软件，第一次开发AR，和同学一起踩了不少坑，在此记录一下。</p><h1 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h1><blockquote><p><strong>结论：</strong> 推荐使用Unity2017.4.40，对应Visual Studio2017版本</p></blockquote><p>&emsp;&emsp;hololens1开发使用Unity和Visual Studio。 hololens1是微软2016年推出的老古董了，而且2019年就推出了arm64的hololens2（hololens1是x86架构），所以Unity比较新的版本基本上只适合hololens2的开发。<br>&emsp;&emsp;我们在Unity2021、2022、2023的版本都尝试过，但是远程调试的配置部分已经和官方文档所说的配置方法截然不同，我尝试了很久最终还是没有成功。另外，微软官方提供的案例教学使用的版本是Unity2017.2，我们测试了2017.4.40的版本，目前还没有出现什么问题。<br>&emsp;&emsp;Visual Studio要与Unity配合使用，安装2017版本即可。我是手动安装的，但在官网没有找到该版本的下载渠道，所以在网上随便找了个企业破解版的装了用。<br>&emsp;&emsp;Visual Studio需要安装以下组件：</p><ul><li>.net桌面开发；</li><li>通用windows平台开发（勾选”USB设备连接性”）</li><li>使用C++的桌面开发；</li><li>使用unity的游戏开发。</li></ul><p>&emsp;&emsp;如果在Unity hub中和unity一起安装的VS，安装后可以检查一下是否缺少组件。<br>&emsp;&emsp;另外，关于virtual reality sdk，如果你看到过有关openXR的教程，那可以直接丢一边了，Hololens1使用Windows Mixed Reality API，不支持openXR（hololens2可以）。这个sdk后面配置unity项目的时候会看到。</p><h1 id="相关学习文档"><a href="#相关学习文档" class="headerlink" title="相关学习文档"></a>相关学习文档</h1><blockquote><p>我们Hololens也有自己的games101：<a href="https://learn.microsoft.com/zh-cn/windows/mixed-reality/develop/unity/tutorials/holograms-101">Hololens101</a> </p></blockquote><p>&emsp;&emsp;Hololens1从配置、调试、部署，到所有官方接口的学习，看过一遍100~240（其他的部分没太多干货），基本上就足够开发了。<br>&emsp;&emsp;事实上是，也找不到其他更多的学习资料了（大概不是因为我不够高性能）。不过对于这套文档，我愿称之Hololens1唯一指定学习教材，真保姆级教学，凛凛花来了都能看懂的那种(。<br>&emsp;&emsp;需要注意，它提供的视频教程是落后于文档教程的，有些旧代码和操作没有更新到最新（指7年前），建议首先根据文字教程操作，看不懂再去视频找找相关操作，大体上还是差不多的。<br>&emsp;&emsp;推荐大家把每一节github项目下下来，里面有Starter和Completed两份Unity项目，前者是我们可以拿来练习的，后者是已经做好的，可以拿来对比参考。</p><blockquote><p>后日记：新看到Jitwxs的<a href="https://jitwxs.cn/categories/HoloLens/">博客</a> ,这份开发笔记也很不错，可以作为补充资料或入门文档来学习</p></blockquote><h1 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h1><ul><li>配置项目时要先在<code>file-build setting</code>中切换UWP（通用windows平台），否则远程调试可能出问题；</li><li>应用部署到hololens时需要保持其常亮，否则网络连接不畅会部署失败；</li><li>unity中脚本打开的VS版本选择方式：edit-preferences-external tools；</li><li>远程调试麦克风功能似乎不能正常使用，部署之后可以，调试的时候可以自己设置快捷键测试；</li><li>211课程手部引导功能远程调试有问题，部署之后是正常的；</li><li>212课程中SRGS测试没有成功，不确定是什么原因。</li></ul><h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>&emsp;&emsp;内容差不多就是这些，第一次写这种记录，如果能帮到谁那就太好了。感觉写的不是很清晰，irtoa需要学习一下别人怎么写的，所以逛个知乎先~</p><p>&#x2F;&#x2F; hololens1真的远古，想必也不会有人拿它来做开发吧&#x3D; &#x3D;</p><center><img src="https://lqo-l.github.io/img/article/24.4.13/marisa.jpg" alt="一张动图"  width="1079" /></center>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;最近irtoa在利用hololens1眼镜开发盲人导航软件，第一次开发AR，和同学一起踩了不少坑，在此记录一下。&lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="hololens1" scheme="https://lqo-l.github.io/tags/hololens1/"/>
+    
+    <category term="AR" scheme="https://lqo-l.github.io/tags/AR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《论分享不如知乎》</title>
+    <link href="https://lqo-l.github.io/2024/03/16/%E3%80%8A%E8%AE%BA%E5%88%86%E4%BA%AB%E4%B8%8D%E5%A6%82%E7%9F%A5%E4%B9%8E%E3%80%8B/"/>
+    <id>https://lqo-l.github.io/2024/03/16/%E3%80%8A%E8%AE%BA%E5%88%86%E4%BA%AB%E4%B8%8D%E5%A6%82%E7%9F%A5%E4%B9%8E%E3%80%8B/</id>
+    <published>2024-03-16T02:21:57.000Z</published>
+    <updated>2025-02-19T03:27:47.004Z</updated>
+    
+    <content type="html"><![CDATA[<!-- ![ ](img/article/24.3.16/atc_del.png) --><img src="https://lqo-l.github.io/img/article/24.3.16/atc_del.png" alt="文章删除警告" width=500/><p>记得上周说过，搭博客似乎只是为了有一些互联网的归属感，论技术上的分享其实不如知乎，但今早看到这件事后，心情其实挺沮丧的。<br><br>在过去的一周里，美国OpenAI放出了Figure 01人形机器人的演示。视频中，机器人已经可以与人类对话，从人类的语言中，理解其需求，并根据需求与现实交互。<br>“我饿了”，Figure01便会把桌子上的苹果拿给你吃。<br>Devin，美国Cognition打造的全球首位AI工程师。会写软件，架网站，但最可怕的点在于其拥有“成长”的能力——它能通过阅读文章自主学习先前不懂的知识，这意味着它可以以远超人类的学习能力，在这个时间流动的世界中，实时地成为与人类共同前进的“生物”。<br>成长、自主，这两个词对于一个机器人来说，太疯狂了。<br>短短一周，国外AI领域就达成了两个个人看来非同寻常的成就。再放眼过去，sora、chatgpt，sd，无数里程碑式的突破…<br>而我们呢？甚至还在删掉一个仅仅讲述开了clash之后网络环境出现问题的简单bug排错帖。沮丧又可悲。<br><br>曾经一直不明白国外究竟有哪里好，安全性差，出去又累。但至少在技术发展领域，在AI发展领域，这里完全看不到任何有希望追逐的前景。不可否认是硬件技术被垄断，但有些地方，再不做出改变，真的仿佛，自我封锁。<br>或许还是应该留一条出国的后路，练习英语听力和口语。<br><br>可喜的是，对于当代人来说，或许会见证一个新的时代。</p><hr><p>未来是人工智能的时代，irtoa如是说道。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!-- ![ ](img/article/24.3.16/atc_del.png) --&gt;
+
+&lt;img src=&quot;https://lqo-l.github.io/img/article/24.3.16/atc_del.png&quot; alt=&quot;文章删除警告&quot; width=500/&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Causerie" scheme="https://lqo-l.github.io/categories/Causerie/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用clash-verge后无法正常pip的bug解决</title>
+    <link href="https://lqo-l.github.io/2024/03/16/%E4%BD%BF%E7%94%A8clash-verge%E5%90%8E%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8pip%E7%9A%84bug%E8%A7%A3%E5%86%B3/"/>
+    <id>https://lqo-l.github.io/2024/03/16/%E4%BD%BF%E7%94%A8clash-verge%E5%90%8E%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8pip%E7%9A%84bug%E8%A7%A3%E5%86%B3/</id>
+    <published>2024-03-16T01:20:25.000Z</published>
+    <updated>2025-02-19T03:27:47.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在cmd命令提示符中尝试pip安装包，出现了奇怪的报错，报错信息如下:</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">C:\Users\username&gt;pip install numpy</span><br><span class="line">WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by &#x27;SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))&#x27;: /simple/numpy/</span><br><span class="line">Could not fetch URL https://pypi.org/simple/numpy/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=&#x27;pypi.org&#x27;, port=443): Max retries exceeded with url: /simple/numpy/ (Caused by SSLError(SSLEOFError(8, &#x27;EOF occurred in violation of protocol (_ssl.c:997)&#x27;))) - skipping</span><br><span class="line">ERROR: Could not find a version that satisfies the requirement numpy (from versions: none)</span><br><span class="line">ERROR: No matching distribution found for numpy</span><br></pre></td></tr></table></figure><p><strong>原因和我使用的代理软件clash-verge有关，其解决方法如下：</strong></p><h2 id="方法一：关闭系统代理"><a href="#方法一：关闭系统代理" class="headerlink" title="方法一：关闭系统代理"></a>方法一：关闭系统代理</h2><p>简单粗暴，但是注意是关闭系统代理，只是修改为直连模式的话并不能解决问题</p><!-- ![clash-verge界面](img/article/24.3.16/clash.png ) --><center><img src="https://lqo-l.github.io/img/article/24.3.16/clash.png" alt="clash-verge界面"  width="600" />clash-verge界面</center><h2 id="方法二：设置http-proxy和https-proxy环境变量"><a href="#方法二：设置http-proxy和https-proxy环境变量" class="headerlink" title="方法二：设置http_proxy和https_proxy环境变量"></a>方法二：设置http_proxy和https_proxy环境变量</h2><p>pip前,在终端（cmd）中运行下述两行命令来指定HTTP 和 HTTPS 协议的代理服务器：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">set http_proxy=http://127.0.0.1:7890</span><br><span class="line">set https_proxy=http://127.0.0.1:7890</span><br></pre></td></tr></table></figure><p>其中，7890是clash-verge默认的监听端口，修改过的话根据你代理的设置来即可。</p><!-- ![端口7890](img/article/24.3.16/clash_port.png) --><center><img src="https://lqo-l.github.io/img/article/24.3.16/clash_port.png" alt="端口7890"  width="600" />端口7890</center><p>之后就可以正常pip了~<br><strong>注：</strong> 这样配置环境变量只在当前终端有效，新开终端需要重新运行这两行命令。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近在cmd命令提示符中尝试pip安装包，出现了奇怪的报错，报错信息如下:&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;C:&#92;Users&#92;us</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Recoding the time now!</title>
+    <link href="https://lqo-l.github.io/2024/03/10/recoding-the-time-now/"/>
+    <id>https://lqo-l.github.io/2024/03/10/recoding-the-time-now/</id>
+    <published>2024-03-10T12:13:50.000Z</published>
+    <updated>2025-02-19T03:27:47.003Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;irtoa的qq bot宕机了…<br>&emsp;&emsp;半年前配置的工程，近来想重新运行一下发现已经失修了，大概是openai接口那边出了点问题。<br><br>&emsp;&emsp;最近看VR-GS，从中发现了一些好玩的工具，也一并安装配置了一下，一个视频分割用的Cutie模型，一个inpainting用的laMA模型。嗯…以后大概也有机会用到吧。<br><br>&emsp;&emsp;搭博客的目的是什么呢，论隐私不若qq zone，论分享不如知乎，论笔记又不比onenote。但是果然还是想要建一个玩玩，irtoa house，有一个自己的小屋总归比较温暖。<br><br>&emsp;&emsp;以后想在博客里接入一个bot，但是目前还没搭好基本的网页功能，实际上irtoa还没有学会…慢慢努力吧，面包会有的，服务器也会有的！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;irtoa的qq bot宕机了…&lt;br&gt;&amp;emsp;&amp;emsp;半年前配置的工程，近来想重新运行一下发现已经失修了，大概是openai接口那边出了点问题。&lt;br&gt;&lt;br&gt;&amp;emsp;&amp;emsp;最近看VR-GS，从中发现了一些好玩的工具，也一并安装配</summary>
+      
+    
+    
+    
+    <category term="Causerie" scheme="https://lqo-l.github.io/categories/Causerie/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>code_test</title>
+    <link href="https://lqo-l.github.io/2024/02/08/code-test/"/>
+    <id>https://lqo-l.github.io/2024/02/08/code-test/</id>
+    <published>2024-02-08T08:28:49.000Z</published>
+    <updated>2025-02-19T03:27:47.002Z</updated>
+    
+    <content type="html"><![CDATA[<p>代码高亮测试</p><span id="more"></span><p><img src="/img/atri_index_top.jpg" alt="atri" title="你是一只小可爱"></p><p><img src="https://hexo.io/icon/favicon-196x196.png" alt="alt text" title="Logo Title Text 2"></p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">using namespace <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="type">int</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">100</span>; i++)&#123;</span><br><span class="line">        sum+=i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;sum&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight_theme:</span> <span class="string">light</span></span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">long_line_code</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;这是一行非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">一段描述性文字。:::::::::::::::::::::::::::::::::::::::::)</summary>
+    
+    
+    
+    <category term="aaa" scheme="https://lqo-l.github.io/categories/aaa/"/>
+    
+    
+    <category term="aa" scheme="https://lqo-l.github.io/tags/aa/"/>
+    
+    <category term="bb" scheme="https://lqo-l.github.io/tags/bb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nothing.</title>
+    <link href="https://lqo-l.github.io/2024/02/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    <id>https://lqo-l.github.io/2024/02/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</id>
+    <published>2024-02-05T05:46:32.000Z</published>
+    <updated>2025-02-19T03:48:41.657Z</updated>
+    
+    <content type="html"><![CDATA[<p>Dream Start.</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Dream Start.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="demo" scheme="https://lqo-l.github.io/tags/demo/"/>
+    
+  </entry>
+  
+</feed>
