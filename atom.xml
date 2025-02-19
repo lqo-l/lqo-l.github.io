@@ -134,34 +134,11 @@
   </entry>
   
   <entry>
-    <title>code_test</title>
-    <link href="https://lqo-l.github.io/2024/02/08/code-test/"/>
-    <id>https://lqo-l.github.io/2024/02/08/code-test/</id>
-    <published>2024-02-08T08:28:49.000Z</published>
-    <updated>2025-02-19T03:27:47.002Z</updated>
-    
-    <content type="html"><![CDATA[<p>代码高亮测试</p><span id="more"></span><p><img src="/img/atri_index_top.jpg" alt="atri" title="你是一只小可爱"></p><p><img src="https://hexo.io/icon/favicon-196x196.png" alt="alt text" title="Logo Title Text 2"></p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">using namespace <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="type">int</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">100</span>; i++)&#123;</span><br><span class="line">        sum+=i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;sum&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight_theme:</span> <span class="string">light</span></span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">long_line_code</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;这是一行非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">一段描述性文字。:::::::::::::::::::::::::::::::::::::::::)</summary>
-    
-    
-    
-    <category term="aaa" scheme="https://lqo-l.github.io/categories/aaa/"/>
-    
-    
-    <category term="aa" scheme="https://lqo-l.github.io/tags/aa/"/>
-    
-    <category term="bb" scheme="https://lqo-l.github.io/tags/bb/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Nothing.</title>
     <link href="https://lqo-l.github.io/2024/02/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
     <id>https://lqo-l.github.io/2024/02/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</id>
     <published>2024-02-05T05:46:32.000Z</published>
-    <updated>2025-02-19T03:48:41.657Z</updated>
+    <updated>2025-02-19T04:04:39.632Z</updated>
     
     <content type="html"><![CDATA[<p>Dream Start.</p><span id="more"></span>]]></content>
     
