@@ -6,7 +6,7 @@
   <link href="https://lqo-l.github.io/atom.xml" rel="self"/>
   
   <link href="https://lqo-l.github.io/"/>
-  <updated>2025-02-24T07:15:46.497Z</updated>
+  <updated>2025-02-17T07:03:45.638Z</updated>
   <id>https://lqo-l.github.io/</id>
   
   <author>
@@ -15,34 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>SemGauss-SLAM笔记</title>
-    <link href="https://lqo-l.github.io/2025/02/24/SemGauss-SLAM%E7%AC%94%E8%AE%B0/"/>
-    <id>https://lqo-l.github.io/2025/02/24/SemGauss-SLAM%E7%AC%94%E8%AE%B0/</id>
-    <published>2025-02-24T05:59:00.000Z</published>
-    <updated>2025-02-24T07:15:46.497Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/img/article/25.2.24/SemGauss-SLAM%20overview.png" alt="overview" title="SemGauss-SLAM overview"></p><blockquote><p>code：<a href="https://github.com/IRMVLab/SemGauss-SLAM">https://github.com/IRMVLab/SemGauss-SLAM</a><br>笔记参考: <a href="https://zhuanlan.zhihu.com/p/8871372350">https://zhuanlan.zhihu.com/p/8871372350</a></p></blockquote><h1 id="关注点"><a href="#关注点" class="headerlink" title="关注点"></a>关注点</h1><ol><li>语义网络的引入方式</li><li>二维像素语义特征如何嵌入3D高斯的属性</li><li>语义损失函数为什么是高斯参数的函数，该正则化项的梯度如何传播的</li></ol><h1 id="语义网络的引入方式"><a href="#语义网络的引入方式" class="headerlink" title="语义网络的引入方式"></a>语义网络的引入方式</h1><p>语义网络分为特征提取器和分类器。特征提取器仅在RGBD图像输入初次进行语义提取，分类器一方面在输入上对语义特征进行处理获取语义标签gt，另一方面在渲染部分获取渲染语义标签（通过分类渲染特征生成）<br><strong>分类渲染特征：</strong><br><strong>渲染语义特征获取：</strong> 对语义特征嵌入属性进行α-blending.<br>$$<br>E(p) &#x3D; \sum_{i \in N} e_i g_i(p) \prod_{j&#x3D;1}^{i-1} (1 - g_j(p)),<br>$$<br>其中$e_i$是第i个高斯的语义特征嵌入，$g_i$是文中各向同性高斯的表达与不透明度的乘积：<br>$$<br>g(x) &#x3D; \alpha \exp \left( -\frac{|x - \mu|^2}{2r^2} \right)<br>$$<br>原始的各向异性高斯公式如下（同样是乘上α后用于α-blending，这点是一样的）：<br>$$<br>G(x) &#x3D; e^{-\frac{1}{2}(x)^T \Sigma^{-1}x}<br>$$</p><h1 id="二维语义特征嵌入3D高斯属性"><a href="#二维语义特征嵌入3D高斯属性" class="headerlink" title="二维语义特征嵌入3D高斯属性"></a>二维语义特征嵌入3D高斯属性</h1><p>使用通用特征提取器 Dinov2，提取的2D语义特征通过<strong>投影传播</strong>到3D高斯表示，作为语义嵌入的初值。<br>高斯参数新增一个16通道的语义特征嵌入向量e。<br><strong>投影传播方式：</strong></p><h1 id="语义损失函数及其传播"><a href="#语义损失函数及其传播" class="headerlink" title="语义损失函数及其传播"></a>语义损失函数及其传播</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/img/article/25.2.24/SemGauss-SLAM%20overview.png&quot; alt=&quot;overview&quot; title=&quot;SemGauss-SLAM overview&quot;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;code：&lt;a h</summary>
-      
-    
-    
-    
-    <category term="Gaussian Splatting" scheme="https://lqo-l.github.io/categories/Gaussian-Splatting/"/>
-    
-    
-    <category term="Gaussian Splatting" scheme="https://lqo-l.github.io/tags/Gaussian-Splatting/"/>
-    
-    <category term="semantic" scheme="https://lqo-l.github.io/tags/semantic/"/>
-    
-  </entry>
   
   <entry>
     <title>Rebirth</title>
