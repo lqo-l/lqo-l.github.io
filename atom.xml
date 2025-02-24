@@ -6,7 +6,7 @@
   <link href="https://lqo-l.github.io/atom.xml" rel="self"/>
   
   <link href="https://lqo-l.github.io/"/>
-  <updated>2025-02-17T07:03:45.638Z</updated>
+  <updated>2025-02-24T07:15:46.497Z</updated>
   <id>https://lqo-l.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SemGauss-SLAM笔记</title>
+    <link href="https://lqo-l.github.io/2025/02/24/SemGauss-SLAM%E7%AC%94%E8%AE%B0/"/>
+    <id>https://lqo-l.github.io/2025/02/24/SemGauss-SLAM%E7%AC%94%E8%AE%B0/</id>
+    <published>2025-02-24T05:59:00.000Z</published>
+    <updated>2025-02-24T07:15:46.497Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/article/25.2.24/SemGauss-SLAM%20overview.png" alt="overview" title="SemGauss-SLAM overview"></p><blockquote><p>code：<a href="https://github.com/IRMVLab/SemGauss-SLAM">https://github.com/IRMVLab/SemGauss-SLAM</a><br>笔记参考: <a href="https://zhuanlan.zhihu.com/p/8871372350">https://zhuanlan.zhihu.com/p/8871372350</a></p></blockquote><h1 id="关注点"><a href="#关注点" class="headerlink" title="关注点"></a>关注点</h1><ol><li>语义网络的引入方式</li><li>二维像素语义特征如何嵌入3D高斯的属性</li><li>语义损失函数为什么是高斯参数的函数，该正则化项的梯度如何传播的</li></ol><h1 id="语义网络的引入方式"><a href="#语义网络的引入方式" class="headerlink" title="语义网络的引入方式"></a>语义网络的引入方式</h1><p>语义网络分为特征提取器和分类器。特征提取器仅在RGBD图像输入初次进行语义提取，分类器一方面在输入上对语义特征进行处理获取语义标签gt，另一方面在渲染部分获取渲染语义标签（通过分类渲染特征生成）<br><strong>分类渲染特征：</strong><br><strong>渲染语义特征获取：</strong> 对语义特征嵌入属性进行α-blending.<br>$$<br>E(p) &#x3D; \sum_{i \in N} e_i g_i(p) \prod_{j&#x3D;1}^{i-1} (1 - g_j(p)),<br>$$<br>其中$e_i$是第i个高斯的语义特征嵌入，$g_i$是文中各向同性高斯的表达与不透明度的乘积：<br>$$<br>g(x) &#x3D; \alpha \exp \left( -\frac{|x - \mu|^2}{2r^2} \right)<br>$$<br>原始的各向异性高斯公式如下（同样是乘上α后用于α-blending，这点是一样的）：<br>$$<br>G(x) &#x3D; e^{-\frac{1}{2}(x)^T \Sigma^{-1}x}<br>$$</p><h1 id="二维语义特征嵌入3D高斯属性"><a href="#二维语义特征嵌入3D高斯属性" class="headerlink" title="二维语义特征嵌入3D高斯属性"></a>二维语义特征嵌入3D高斯属性</h1><p>使用通用特征提取器 Dinov2，提取的2D语义特征通过<strong>投影传播</strong>到3D高斯表示，作为语义嵌入的初值。<br>高斯参数新增一个16通道的语义特征嵌入向量e。<br><strong>投影传播方式：</strong></p><h1 id="语义损失函数及其传播"><a href="#语义损失函数及其传播" class="headerlink" title="语义损失函数及其传播"></a>语义损失函数及其传播</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/img/article/25.2.24/SemGauss-SLAM%20overview.png&quot; alt=&quot;overview&quot; title=&quot;SemGauss-SLAM overview&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;code：&lt;a h</summary>
+      
+    
+    
+    
+    <category term="Gaussian Splatting" scheme="https://lqo-l.github.io/categories/Gaussian-Splatting/"/>
+    
+    
+    <category term="Gaussian Splatting" scheme="https://lqo-l.github.io/tags/Gaussian-Splatting/"/>
+    
+    <category term="semantic" scheme="https://lqo-l.github.io/tags/semantic/"/>
+    
+  </entry>
   
   <entry>
     <title>Rebirth</title>
@@ -134,81 +162,16 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://lqo-l.github.io/2024/03/10/hello-world/"/>
-    <id>https://lqo-l.github.io/2024/03/10/hello-world/</id>
-    <published>2024-03-10T08:09:36.007Z</published>
-    <updated>2024-02-10T15:48:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="demo" scheme="https://lqo-l.github.io/tags/demo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MD test</title>
-    <link href="https://lqo-l.github.io/2024/02/10/MD-test/"/>
-    <id>https://lqo-l.github.io/2024/02/10/MD-test/</id>
-    <published>2024-02-10T11:57:45.000Z</published>
-    <updated>2024-02-10T14:15:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="H1-title1"><a href="#H1-title1" class="headerlink" title="H1 title1"></a>H1 title1</h1><p>atri<br></br></br></br></br></br></br></br></br></br></br></br></p><h2 id="H2-title2"><a href="#H2-title2" class="headerlink" title="H2 title2"></a>H2 title2</h2><p>atriatri</p><h1 id="H1-title11"><a href="#H1-title11" class="headerlink" title="H1 title11"></a>H1 title11</h1><p>atri</p><h1 id="H1-title111"><a href="#H1-title111" class="headerlink" title="H1 title111"></a>H1 title111</h1><p>atriatri</p><h2 id="H2-title222"><a href="#H2-title222" class="headerlink" title="H2 title222"></a>H2 title222</h2><p>content</p><h3 id="H3-title333"><a href="#H3-title333" class="headerlink" title="H3 title333"></a>H3 title333</h3><p>atriatriatri</p>]]></content>
-    
-    
-    <summary type="html">for a test.</summary>
-    
-    
-    
-    <category term="test" scheme="https://lqo-l.github.io/categories/test/"/>
-    
-    
-    <category term="test" scheme="https://lqo-l.github.io/tags/test/"/>
-    
-    <category term="demo" scheme="https://lqo-l.github.io/tags/demo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>code_test</title>
-    <link href="https://lqo-l.github.io/2024/02/08/code-test/"/>
-    <id>https://lqo-l.github.io/2024/02/08/code-test/</id>
-    <published>2024-02-08T08:28:49.000Z</published>
-    <updated>2024-02-10T11:18:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>代码高亮测试</p><span id="more"></span><p><img src="/img/atri_index_top.jpg" alt="atri" title="你是一只小可爱"></p><p><img src="https://hexo.io/icon/favicon-196x196.png" alt="alt text" title="Logo Title Text 2"></p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">using namespace <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="type">int</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">100</span>; i++)&#123;</span><br><span class="line">        sum+=i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;sum&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight_theme:</span> <span class="string">light</span></span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">long_line_code</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;这是一行非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">一段描述性文字。:::::::::::::::::::::::::::::::::::::::::)</summary>
-    
-    
-    
-    <category term="aaa" scheme="https://lqo-l.github.io/categories/aaa/"/>
-    
-    
-    <category term="aa" scheme="https://lqo-l.github.io/tags/aa/"/>
-    
-    <category term="bb" scheme="https://lqo-l.github.io/tags/bb/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My New Post</title>
-    <link href="https://lqo-l.github.io/2024/02/05/My-New-Post/"/>
-    <id>https://lqo-l.github.io/2024/02/05/My-New-Post/</id>
+    <title>Nothing.</title>
+    <link href="https://lqo-l.github.io/2024/02/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    <id>https://lqo-l.github.io/2024/02/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</id>
     <published>2024-02-05T05:46:32.000Z</published>
-    <updated>2024-02-10T09:40:18.000Z</updated>
+    <updated>2025-02-19T04:38:03.468Z</updated>
     
-    <content type="html"><![CDATA[<p>摘要: 字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈。字数测试。哈哈哈哈哈哈哈哈123哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈123哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈123哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p><span id="more"></span><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p><strong>正文内容</strong></p>]]></content>
+    <content type="html"><![CDATA[<p>Dream Start.</p><span id="more"></span>]]></content>
     
     
-    <summary type="html">&lt;p&gt;摘要: 字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈。字数测试。哈哈哈哈哈哈哈哈123哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈123哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈123哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈字数测试。哈哈哈哈哈哈哈哈哈哈哈哈哈哈&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Dream Start.&lt;/p&gt;</summary>
     
     
     
